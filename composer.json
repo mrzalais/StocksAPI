@@ -1,0 +1,16 @@
+{
+  "name": "mrzalais",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "scheb/yahoo-finance-api": "^4.0",
+    "doctrine/dbal": "^2.12",
+    "vlucas/phpdotenv": "^5.2",
+    "respect/validation": "^2.1",
+    "nesbot/carbon": "^2.41",
+    "nikic/fast-route": "^1.3"
+  }
+}
